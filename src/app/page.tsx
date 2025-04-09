@@ -1,5 +1,7 @@
+import Card from "../../components/Card";
+
 export default async function Home() {
   return (
-    <h1>Hello</h1>
+    <Card title="Hello"/>
   );
 }
